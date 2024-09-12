@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arwanz Calculator</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js"></script>
+</head>
+
+
+<body>
+    <!-- Title Page -->
+    <header class="main-title">
+        <h1>Triangle Calculator</h1>
+        <p>Project Software RevoU by Arco Wirawan</p>
+        <h3>Membantu dalam perhitungan rumus Segitiga</h3>
+    </header>
+
+    <main class="main-page">
+        <!-- button switch page #disini saya tidak mengufungsikan -->
+        <section class="section-bgdtr">
+            <li class="segitiga-menu"><button onclick="">Segitiga</button></li>
+            <li class="jajarGenjang-menu"><button onclick="">Jajar Genjang</button></li>
+        </section>
+
+
+        <img src="img/luas-segitiga.jpg " alt="Rumus-Segitiga" class="img-luasSegitiga">
+        <hr />
+        <div class="luas-segitiga">
+            <!-- <img src="img/luas-segitiga.jpg " alt="Rumus-Segitiga" class="img-luasSegitiga">
+            <hr> -->
+            <h1>Kalkulator Luas Segitiga </h1>
+            <form id="luas-segitiga">
+                <input type="number" name="panjang-segitiga" id="panjang-segitiga" placeholder="Alas (cm)">
+                <input type="number" name="tinggi-segitiga" id="tinggi-segitiga" placeholder="Tinngi (cm)">
+
+                <button onclick="luasSegitiga()" id="luas-btn">Hasil</button>
+
+            </form>
+        </div>
+        <br>
+        <!-- contoh post foto dari link -->
+        <img src="https://asset-a.grid.id/crop/0x0:0x0/x/photo/2021/01/15/1853786887.jpg" alt="keliling-segitiga" class="img-kelilingSegitiga">
+
+        <div class="keliling-segitiga">
+            <h1>Kalkulator Keliling Segitiga</h1>
+            <form id="input-segitiga">
+                <input type="number" name="sisi-pertama" id="sisi-pertama" placeholder="Sisi 1 (cm)">
+                <input type="number" name="sisi-kedua" id="sisi-kedua" placeholder="Sisi 2 (cm)">
+                <input type="number" name="sisi-ketiga" id="sisi-ketiga" placeholder="Sisi 3 (cm)">
+
+                <button onclick="kelilingSegitiga()" id="keliling-btn">Hasil</button>
+
+            </form>
+        </div>
+    </main>
+</body>
+
+</html>

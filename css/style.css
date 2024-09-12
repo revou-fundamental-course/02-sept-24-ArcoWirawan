@@ -1,0 +1,117 @@
+    * {
+        font-family: 'Courier New', Courier, monospace;
+        background-color: beige;
+    }
+    
+    .main-title {
+        text-align: center;
+        width: 100%;
+        height: 100%;
+        background-size: cover;
+    }
+    
+    .section-bgdtr {
+        list-style-type: none;
+        border-radius: 5px;
+    }
+    
+    .section-bgdtr li {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .section-bgdtr button {
+        font-size: large;
+        border-style: none;
+    }
+    
+    .segitiga-menu {
+        margin-bottom: 10px;
+    }
+    
+    .segitiga-menu button:hover {
+        background-color: gainsboro;
+        color: black;
+    }
+    
+    .jajarGenjang-menu button:hover {
+        background-color: gainsboro;
+        color: black;
+    }
+    
+    .img-luasSegitiga {
+        margin-top: 30px;
+        margin-left: 19em;
+        margin-bottom: 10px;
+    }
+    
+    .luas-segitiga {
+        text-align: center;
+        font-size: 30px;
+    }
+    
+    .luas-segitiga form {
+        display: flex;
+        flex-direction: column;
+        width: auto;
+        font-size: large;
+    }
+    
+    .luas-segitiga #panjang-segitiga {
+        margin-bottom: 15px;
+        size: 40px;
+    }
+    
+    .luas-segitiga #tinggi-segitiga {
+        margin-top: 10px;
+    }
+    
+    .luas-segitiga #luas-btn {
+        margin-top: 10px
+    }
+    
+    .luas-segitiga #luas-btn:hover {
+        background-color: gainsboro;
+        color: black;
+    }
+    
+    .img-kelilingSegitiga {
+        margin-top: 30px;
+        margin-left: 21em;
+        margin-bottom: 10px;
+    }
+    
+    .keliling-segitiga {
+        text-align: center;
+        font-size: 30px;
+    }
+    
+    .keliling-segitiga #input-segitiga {
+        display: flex;
+        flex-direction: column;
+        margin-top: 50px;
+    }
+    
+    .keliling-segitiga #sisi-pertama {
+        margin-bottom: 10px;
+    }
+    
+    .keliling-segitiga #sisi-kedua {
+        margin-bottom: 10px;
+    }
+    
+    .keliling-segitiga #sisi-ketiga {
+        margin-bottom: 10px;
+    }
+    
+    .keliling-segitiga #keliling-btn:hover {
+        color: white;
+        background-color: black;
+    }
+    
+    @media screen and (min-width: 450px) {
+        .main-page {
+            margin-left: auto;
+            margin-right: auto;
+        }
+    }
